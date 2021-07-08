@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+
+.container h1 {
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    font-size: 3.4rem;
+    line-height: 8.4rem;
+    margin-left: 30px;
+}
+
+h1:hover {
+    color: rgb(59, 55, 55);
+    transition: 1s;
+}
+
+nav {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color:rgb(81, 70, 180);
+    border-radius: 4px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+ul,
+li {
+    display: flex;
+    border-radius: 4px;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(81, 70, 180);
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 1.4rem 1rem 1.4rem;
+    color: #fff;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+a:hover {
+    color:rgb(81, 70, 180);
+    background-color: rgb(59, 55, 55);
+}
+
+.container img {
+    width: 80px;
+    height: 80px;
+    margin-left: 23px;
+}
+
+.content-login-user {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(81, 70, 180);
+    margin-inline-start: auto;
+    margin-right: 20px;
+}
+
+.content-login-user a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #fff;
+    padding: 1rem 2.5rem 1rem;
+    display: block;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(50, 148, 107);
+    border: none;
+}
+
+.content-login-user a:hover {
+    opacity: 0.9;
+}
+
+button {
+    display: block;
+    line-height: 2.4rem;
+    color: rgb(81, 70, 180);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: none;
+    padding: 0rem 2rem 0rem;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: rgb(59, 55, 55);
+}
+
+ label {
+    display: none;
+    color: black;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+    position: absolute;
+    right: 10px;
+}
+
+
+
